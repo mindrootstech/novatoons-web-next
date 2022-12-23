@@ -1,0 +1,22 @@
+.authorHeading h4, .DetailPrice {
+    font-weight: 500;
+    font-size: 16px;
+}
+.authorHeading h6 {margin-top: 2px;}
+.authorHeading h6 a{font-size: 20px;line-height: 27px;text-transform: capitalize;}
+.red {color: red;}
+
+@media (max-width: 1200px) {
+    .authorHeading h6 a{font-size: 18px;line-height: 22px;}
+}
+
+@media(min-width: 1200px) and (max-width: 1600px) {
+    .authorHeading h6 a{font-size: 17px;line-height: 27px;text-transform: capitalize;}
+}
+
+@media (min-width: 1200px) {
+    .mx-90 {
+        max-width: 90%;
+        margin: auto;
+    }
+}

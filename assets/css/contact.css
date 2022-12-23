@@ -1,0 +1,36 @@
+.dropMessage {color: #727583 !important ;text-align: center !important; }
+.mt-25 {margin-top: 50px;}
+a.mySupportText {color: #00AB4F;font-size: 18px;padding: 15px;width: 100%;text-align: center;}
+.mysupportMessage{padding: 15px;border:1px solid transparent;border-radius: 24px;}
+.mysupportMessage:hover {border: 1px solid #fff;transition: all 0.3s ease-in-out;}
+.mysupportMessage:hover a {color: #fff;}
+.cardComponent {background-color: #265943;padding: 15px;border-radius: 8px;margin: 0px auto 20px;}
+.cardHeading {padding: 8px 0px; display: flex;justify-content: space-between;align-items: center;}
+.subjectHeading, .CardDate {font-size: 16px;}
+.cardBody p {font-size: 15px; padding: 8px 0px;}
+.cardFooter {font-size: 15px;font-weight: 600;}
+.subjectHeading {font-weight: 600;}
+.close_btn.cursorPointer {
+    max-width: 80%;
+    border: 1px solid #40C07B;
+    border-radius: 24px;
+    padding: 12px;
+    text-align: center;
+    font-size: 14px;
+    margin: auto;
+}
+
+@media (min-width: 768px) {
+    .dropMessage{max-width: 50%;margin: 30px auto;}
+}
+
+@media (max-width: 576px) {
+    .cardHeading {flex-direction: column;justify-content: flex-start; align-items: flex-start;}
+    .cardHeading .subjectHeading {margin-bottom: 8px;}
+}
+
+@media (max-width: 768px) {
+    .pt-11 {
+        padding-top: 11px!important;
+    }
+}

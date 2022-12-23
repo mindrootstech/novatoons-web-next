@@ -1,0 +1,24 @@
+.Rating span {font-family: 'Urbanist';font-size: 16px;font-weight: 400;line-height: 26px;letter-spacing: 0em;text-align: right;color: #A5A5A5;}
+.Rating {text-align: right;}
+.Rating i {color: #C4C4C4;font-size: 13px;margin-left: 4px;}
+.PrimaryBtn {color: #fff!important;background: #353444!important;padding: 15px 100px;border-radius: 8px;border: none;}
+#react-select-2-listbox{z-index:9999 !important;}
+.PrimaryBtn:hover, .PrimaryBtn:active, .PrimaryBtn:focus, .PrimaryBtn:visited {border: none;}
+.submitbtnTag {margin-top: 20px;text-align: right;}
+.select__control {border: 1px solid rgba(138, 138, 160, 0.3)!important;}
+#multiple input[type="text"] {font-size: 14px;border: 1px solid rgba(138, 138, 160, 0.3);border-radius: 8px;padding: 9px 20px;margin-bottom: 24px;color: #fff;font-size: 16px;}
+#multiple .textAreaField {color: #fff;font-size: 16px;}
+.previewBtn {border: 1.5px solid #fff;border-radius: 30px;padding: 15px;text-align: center;font-size: 18px;font-weight: 700;
+    /* font-family: 'Urbanist'; */
+    width: 90%;margin: auto;margin-bottom: 20px;cursor: pointer;}
+.previewBtn:hover{border: 1.5px solid #00AB4F;}
+.contentDetails {font-size: 18px;font-weight: 700;padding: 4px 15px;}
+.contentDetails span {font-weight: 500;}
+/* .previewItemPopUp img {height: 300px!important;} */
+.previewItemPopUp .sc-card-product .card-media{margin-bottom: 0px!important;}
+span.tagBatch {background: #40C07B;margin-left: 8px;padding: 4px 12px;border-radius: 24px; display: inline-block;line-height: 19px;}
+.tagHeading {display: inline-block;}
+.listOfContent .previewtaghs {display: inline;line-height: 36px;}
+@media (min-width: 768px) {
+    .mobPadding {padding: 0px;}
+}

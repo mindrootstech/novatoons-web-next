@@ -1,0 +1,59 @@
+.allTransaction {
+    background-color: #14141e;
+    padding: 24px 0px;
+}
+.transactionCard {
+    background: #353444;
+    margin: 16px auto;
+    padding: 18px;
+    border-radius: 24px;
+    max-width: 70%;
+}
+
+.avatarImageTransaction {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 24px;
+}
+.cardDetails h5 {
+    font-size: 24px;
+}
+.paidAmount {
+    font-size: 20px;
+    /* font-family: 'Urbanist'; */
+}
+.amountPaidSection {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.cardDetails .dateCard, .cardDetails .cardTime {
+    font-size: 20px;
+    margin-top: 12px;
+}   
+
+@media (max-width: 1024px) {
+    .transactionCard {
+        max-width: 100%;
+    }
+    .paidAmount, .cardDetails .dateCard, .cardDetails .cardTime{
+        font-size: 14px;
+    }
+    .transactionCard {
+        padding: 12px;
+    }
+}
+@media (min-width: 1024px) and (max-width: 1300px){
+    .paidAmount, .cardDetails .dateCard, .cardDetails .cardTime {font-size: 16px;}
+
+}
+@media (max-width: 768px) {
+    .avatarImageTransaction {
+        margin-bottom: 20px;
+    }
+    .transactionCard {
+        padding: 12px;
+    }
+    .amountPaidSection {margin: 12px 0px;}
+}
